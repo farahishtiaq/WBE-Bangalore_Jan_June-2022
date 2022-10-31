@@ -1,18 +1,15 @@
-# WBE-Bangalore_Jan_June-2022
+SARS-CoV-2 infection dynamics and genomic surveillance reveals early variant transmission in urban wastewater
 
-We sampled influent wastewater from 28 sewage treatment plants (STPs) in Bangalore. Grab Ssamples were collected once a week from each STP (January-June 2022) The normalised temporal trend of SARS-CoV-2 RNA in wastewater and new positive cases in Bangalore city from January-June 2022. By investigating viral RNA concentrations in the wastewater and correlating it with community testing data on a weekly basis, we generated an early and real-time map of COVID-19 infection dynamics in the city. We conducted two main analyses using the raw and normalised viral load. At the citywide level, we calculated the daily viral load, VL (copies/d) for SARS-CoV-2, by normalizing C (copies/mL) to the average daily STP flow, Q(L/d) using equation 1) and P is the population of inhabitants the catchment of the respective sewershed.
+Environmental surveillance (ES) of a pathogen is crucial for understanding the community load of disease. As an early warning system, ES for SARS-CoV-2 has complemented routine diagnostic surveillance by capturing near real-time virus circulation at a population level. In this longitudinal study in 28 sewershed sites in Bangalore city, we quantified SARS-CoV-2 RNA to track infection dynamics and provide evidence of change in the relative abundance of emerging variants. We describe an early warning system using the exponentially weighted moving average control chart and demonstrate how SARS-CoV-2 RNA concentrations in wastewater correlated with clinically diagnosed new COVID-19 cases, with the trends appearing 8–14 days earlier in wastewater than in clinical data. This was further corroborated by showing that the estimated number of infections is strongly correlated with SARS-CoV-2 RNA copies detected in the wastewater. Using a deconvolution matrix, we detected emerging variants of concern up to two months earlier in wastewater samples. In addition, we found a huge diversity in variants detected in wastewater compared to clinical samples. Our study highlights that quantifying viral titre, correlating it with a known number of cases in the area, and combined with genomic surveillance helps in tracking variants of concern (VOC)s over time and space, enabling timely and making informed policy decisions.
 
-                                            VL=(C×Q×(10)^3)/P                                                      equation (1)
+The project contains following folders with data used in the analysis:
+________________________________________________________________________
+Supplemenatry Table S1: Temporal dynamics of normalized viral load in wastewater and COVID-19 cases in Bangalore using 4 days and 7-days average.  RVL=Raw Viral load, LCL= Lower Control limit, UCL=Upper Control Limit, NVL=Normalisesd Viral Load, EII=Estimated infected Individuals, CPC=Covid Positive Cases
 
-(i) 	Spatial and temporal dynamics in viral load copies by STPs and at the citywide level
+Supplemenatry Table S2: Temporal dynamics of normalized viral load in sewershed sites in Bangaloreage.  LCL= Lower Control limit, UCL=Upper Control Limit
 
-To understand spatial and temporal changes in viral load, we used an Exponentially Weighted Moving Average (EWMA) as the monitoring algorithm to detect moderate and persistent shifts in cases. 
+Supplementary Table S3: Wastewater sample sequenced and meta data
 
-(ii) Estimation of infected individuals by STP and citywide
+Supplementary Table S4: Viral load calculation and limit of detection
 
-We estimated the number of infected individuals by each STP and citywide. The prevalence of SARS-CoV-2 infection within the catchment of each STP was estimated using the total number of viral RNA copies in wastewater each day, as measured in wastewater by RT-qPCR, and the number of SARS-CoV-2 RNA copies shed in stool by an infected following Ahmed et al. equation 2.
-
-![image](https://user-images.githubusercontent.com/117061166/198938822-479a0ce5-97bb-4320-afb7-ffe79faaf929.png)        equation (2)
-
-The daily flow rate of wastewater was calculated for each sewershed using the product of the population of each catchment area and the observed average per capita wastewater rate of 100L/person/day. The daily stool mass of 128 g was used as per Rose et al. (2015) and one person sheds SARS-CoV-2 RNA 107copies/g of feces as per Foladori et al. (2020). 
 
